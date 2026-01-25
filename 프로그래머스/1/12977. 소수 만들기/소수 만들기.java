@@ -2,7 +2,6 @@ import java.util.Arrays;
 class Solution {
     public int solution(int[] nums) {
         int answer = 0;
-        Arrays.sort(nums);
         for(int i=0; i<nums.length-2; i++){
             for(int j=i; j<nums.length-2; j++){
                 for(int k=j; k<nums.length-2; k++){
